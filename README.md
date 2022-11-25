@@ -39,7 +39,7 @@
         </select></p>
 
     <p><label for="cCidade">Cidade:</label>
-        <p>Cidade: <input type="password" name="tSenha" id="cSenha" size="15" maxlength="15" placeholder="Digite sua cidade"/> </p>
+        <p>Cidade: <input type="text" name="tCidade" id="cCidade" size="15" maxlength="15" placeholder="Digite sua cidade"/> </p>
 
             <datalist id="cidades">
                 <option value="Rio de Janeiro"> </option>
