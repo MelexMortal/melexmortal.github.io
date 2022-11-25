@@ -1,8 +1,6 @@
 # melexmortal.github.io
-<!DOCTYPE html> 
 <html lang="pt-br">
 <head>
-<meta charset=UTF-8">
 <title>FORMs</title>
 
 </head> 
