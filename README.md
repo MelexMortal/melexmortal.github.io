@@ -10,7 +10,7 @@
 
 <fieldset id="usuario"><legend>Identificação do Usuário</legend>
     <p>Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
-    <p>Senha: <input type="password" name="tSenha" id="cSenha" size="10" maxlength="10" placeholder="Digite sua senha"/> </p>
+    <p>Senha: <input type="password" name="tSenha" id="cSenha" size="15" maxlength="15" placeholder="Digite sua senha"/> </p>
     <p>E-mail: <input type="email" name="tEmail" id="cEmail" size="20" maxlength="40"/> </p>
         <fieldset id=sexo><legend>Sexo</legend>
             <input type="radio" name="tSexo" id="cMasc" checked/><label for="cMasc">Masculino</label>
@@ -47,11 +47,8 @@
                 <option value="Nova Iguacú"></option>
                 <option value="Belford Roxo"></option>
                 <option value="Angra"></option>
-
             </datalist>
     </p>
-
-    
 </fieldset>
 
 <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
@@ -59,7 +56,7 @@
         Mín<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2"/>Máx
     </p>
     <p> <label for="cMsg">Mensagem</label>
-        <textarea name="tMsg" id="cMsg" cols="45" rows="5" maxlength="150" placeholder="Deixe aqui sua mensagem"></textarea> 
+        <textarea name="tMsg" id="cMsg" cols="45" rows="5" maxlength="150" placeholder="Digite aqui"></textarea> 
     </p>
     
 </fieldset>
